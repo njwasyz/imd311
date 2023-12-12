@@ -1,0 +1,145 @@
+body {
+    background-color:#DCC78B;
+    color: black;
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:white;
+    padding: 1rem 0;
+}
+.logo {
+ display: flex;
+ align-items: center;
+}
+
+.icon {
+ height: 80px;
+ margin-right: 40px;
+}
+.banner {
+    padding: 0px;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height:auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 5rem;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+ text-decoration: underline;
+}
+
+nav a.active {
+ text-decoration: underline;
+} 
+
+#home {
+margin-right: 8rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+#image {
+   margin-left: 8rem;
+ max-width: 250px;
+    width: 120%; 
+} 
+#home {
+ margin-right: 8rem;
+ display: flex;
+ justify-content: space-between;
+ padding: 1rem;
+}
+
+#image {
+ margin-left: 8rem;
+ max-width: 250px;
+ width: 100%;  
+}
+
+#content {
+ max-width: 500px;
+}
+
+p {
+ font-size: 20px; /* Default font size *
+}
+
+copyright {
+    position: relative;
+    color: black;
+    font-size: 12px;
+    padding: 1px;
+}
+
+
+
+/*-----------------------------------*\ 
+             GALLERY PAGE
+\*-----------------------------------*/
+
+.gallery__page {
+	padding: 80px 15px 65px;
+}
+
+@media (max-width: 576px) {
+	.gallery__page {
+		padding: 30px 15px 65px;
+	}
+}
+
+.gallery__warp {
+	max-width: 1570px;
+	margin: 0 auto;
+}
+
+.gallery__item {
+	display: block;
+	margin-bottom: 30px;
+}
+
+.gallery__item img {
+	min-width: 100%;
+}
+
+.fr-position-outside {
+	left: 0;
+	top: 0;
+	right: auto;
+	bottom: auto;
+}
+
+.fr-position-text {
+	color: #fff;
+}
+
+.fr-window-skin-fresco.fr-window-ui-outside .fr-close-background,
+.fr-window-skin-fresco.fr-window-ui-outside .fr-close:hover .fr-close-background {
+	background-color: transparent;
+}
+
+.fr-thumbnail-active {
+	border: 2px solid #8DB952;
+}
+

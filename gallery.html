@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<center>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <style>
+        body {
+            font-family:'Times New Roman', serif;
+            background-color: #FCF6A9;
+        }
+        .header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: white;
+        }
+        .header a {
+            color: black;
+            text-decoration: none;
+        }
+        .header a.active {
+            border-bottom: 2px solid white;
+
+        }
+    </style>
+ <header class="header">
+        <a href="home.html" class="active">Home</a>
+        <a href="aboutme.html" class="active">About Me</a>
+        <a href="education.html" class="active">Education</a>
+        <a href="experience.html" class="active">Experience</a>
+        <a href="family.html" class="active">Family</a>
+        <a href="friends.html" class="active">Friends</a>
+        <a href="gallery.html" class="active">Gallery</a>
+    </header>
+
+<body>
+<html>
+ <style>
+        .heading {
+        text-align: center;
+        font-size: 2.0em;
+        letter-spacing: 1px;
+        padding: 40px;
+        color: white;
+    }
+    
+        .gallery-image {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+        .gallery-image img {
+        height: 250px;
+        width: 350px;
+        transform: scale(1.0);
+        transition: transform 0.4s ease;
+    }
+    
+        .img-box {
+        box-sizing: content-box;
+        margin: 10px;
+        height: 250px;
+        width: 350px;
+        overflow: hidden;
+        display: inline-block;
+        color: white;
+        position: relative;
+        
+    }
+    
+        .caption {
+        position: absolute;
+        bottom: 4px;
+        left: 20px;
+        opacity: 0.0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    
+        .transparent-box {
+        height: 250px;
+        width: 350px;
+        background-color:rgba(0, 0, 0, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: background-color 0.3s ease;
+    }
+    
+        .img-box:hover img { 
+        transform: scale(1.1);
+    }
+    
+        .img-box:hover .transparent-box {
+        background-color:rgba(0, 0, 0, 0.5);
+    }
+    
+        .img-box:hover .caption {
+        transform: translateY(-20px);
+        opacity: 1.0;
+    }
+    
+        .img-box:hover {
+        cursor: pointer;
+    }
+    
+        .caption > p:nth-child(2) {
+        font-size: 0.8em;
+    }
+    
+        .opacity-low {
+        opacity: 0.5;
+    }
+     </style>
+    </head>
+
+    <body class="light-theme">
+        <header>
+      
+          <div class="container">
+      
+            <nav class="navbar">
+      
+              <a href="index.html">
+              </a>
+      
+            </nav>
+      
+          </div>
+      <br><br><br><br>
+</br>
+        </header>
+
+        <!---GALLERY-->   
+  <div class="main">
+ <head><title>MY GALLERY</title></head>
+     <h1 style="font-size:200%;" align="center">MY GALLERY</h1>
+     <p><b>"Life is a collection of moments."</b></p>
+  <style>
+     h1 {color:black;}
+    h1 {margin-top: -50px;}
+  </style>
+  <div class="gallery-image">
+    <div class="img-box">
+      <img src="image/image1.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Event Visit</p>
+          <p class="opacity-low">Pusat Jagaan Rumah Budi</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="image/image2.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Classmate with Dr Asmadi</p>
+          <p class="opacity-low">IM1104D</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="image/image3.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Photoshot Wedding Sister</p>
+          <p class="opacity-low">With My Family</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="image/image4.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Holiday at Kuala Lumpur</p>
+          <p class="opacity-low">With Family</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="image/image5.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Trip Penang</p>
+          <p class="opacity-low">Armenian Street</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="image/image6.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>A Beloved Sister Wedding</p>
+          <p class="opacity-low">My Parents</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="image/image7.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Roommate Semester 4</p>
+          <p class="opacity-low">Last Day Before Semester Break</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+        <img src="image/image8.jpg" alt="" />
+        <div class="transparent-box">
+          <div class="caption">
+            <p>Library Event</p>
+            <p class="opacity-low">Perpustakaan Sultan Badlishah</p>
+          </div>
+        </div> 
+      </div>
+      <div class="img-box">
+        <img src="image/image9.jpg" alt="" />
+        <div class="transparent-box">
+          <div class="caption">
+            <p>Science and Technology Event</p>
+            <p class="opacity-low">Dewan Perdana</p>
+          </div>
+        </div> 
+      </div>
+	    </div>
+  
+  <!--- #FOOTER --->
+  
+  <footer>
+  
+    <div class="container">
+
+      <div class="wrapper">
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
